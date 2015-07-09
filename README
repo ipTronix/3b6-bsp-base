@@ -1,12 +1,12 @@
-Freescale's Community Yocto BSP
+3B6 Yocto BSP
 ===============================
 
 Supported boards
 ----------------
 
-In order to know the supported boards, please, see the release notes at
+In addition to freescale boards, listed in the freescale release notes (http://freescale.github.io/doc/release-notes/current/) this BSP supports the following machines:
 
-   http://freescale.github.io/doc/release-notes/current/
+   Tera-HE
 
 Quick Start Guide
 -----------------
@@ -58,3 +58,7 @@ The following layers are included on this release:
    Mailing list: https://lists.yoctoproject.org/listinfo/meta-freescale
    Note: Use [meta-fsl-demos] in subject to easy the processing
 
+ * meta-3b6: 3b6 specific layer
+   Path: sources/meta-3b6
+   Project: https://github.com/ipTronix/meta-3b6
+   GIT: git://github.com/ipTronix/meta-3b6.git
