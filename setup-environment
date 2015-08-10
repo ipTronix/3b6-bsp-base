@@ -158,7 +158,8 @@ if [ ! -e conf/local.conf.sample ]; then
 BB_NUMBER_THREADS = '$NCPU'
 PARALLEL_MAKE = '-j $NCPU'
 
-DL_DIR ?= "\${BSPDIR}/downloads/"
+DL_DIR ?= "/opt/downloads/"
+DISTRO_FEATURES_remove = "x11 wayland"
 EOF
     # Change settings according environment
     sed -e "s,MACHINE ??=.*,MACHINE ??= '$MACHINE',g" \
